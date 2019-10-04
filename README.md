@@ -44,6 +44,33 @@ Create the file *./platforms/android/gradlenstein.json* like the example below (
 }
 ```
 
+## Result
+
+The example above will modify the build.gradle file as the following:
+
+``` groovy
+apply plugin: 'com.android.application'
+apply plugin: "com.google.gms.google-services"			// <-- line added
+apply plugin: "io.fabric"					// <-- line added
+
+buildscript {
+    repositories {
+	jcenter()					
+	maven { url 'https://maven.google.com' }		// <-- line added
+	maven { url 'https://maven.fabric.io/public' }		// <-- line added
+	google()						// <-- line added
+    }
+    
+     dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+	
+	classpath "com.google.gms:google-services:4.1.0"	// <-- line added
+	classpath "io.fabric.tools:gradle:1.31.0"		// <-- line added
+    }
+}
+...
+```
+
 ## Acknowledgment
 
 This plugin was inspired by the cordova-support-kotlin (code) and by many suffering human beings that lurks stackoverflow searching for the light.  
