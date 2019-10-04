@@ -1,7 +1,7 @@
 {
   "name": "cordova-support-gradlenstein",
-  "version": "0.0.1",
-  "description": "This plugin can make your untouchable build.gradle into a real monster.",
+  "version": "0.0.2",
+  "description": "This plugin can make your untouchable build.gradle become a real monster.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phelcom/cordova-support-gradlenstein.git"
