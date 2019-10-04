@@ -38,3 +38,7 @@ Create the file *./platforms/android/gradlenstein.json* like the example below (
 	]	
 }
 ```
+
+## Acknowledgment
+
+This plugin was inspired by the cordova-support-kotlin (code) and by many suffering human beings that lurks stackoverflow searching for the light.  
