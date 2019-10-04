@@ -5,6 +5,11 @@ This [Cordova plugin](https://www.npmjs.com/package/cordova-support-gradlenstein
 
 With this plugin you can easily apply plugins that are unsupported by build-extras.gradle file.
 
+This first version is really at its earlier stage of development, it's expected to improve the build.gradle file parser in order to avoid duplications and also to allow differentiation between repositories and dependencies blocks (buildscript x root).
+
+By now, this works for buildscript extension (classpath dependencies and plugins to apply), other needed dependencies can be explicited using build-extras.gradle file.
+BEWARE the blocks order in build.gradle, buildscript block MUST come first. 
+
 ## Installation
 
 Add this plugin in your project:
