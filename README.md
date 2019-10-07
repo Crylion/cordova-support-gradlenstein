@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/cordova-support-gradlenstein.svg)](https://www.npmjs.com/package/cordova-support-gradlenstein)
+[![npm](https://img.shields.io/npm/dm/cordova-support-gradlenstein.svg)](https://www.npmjs.com/package/cordova-support-gradlenstein)
 
 # cordova-support-gradlenstein
 ![gradlenstein-128x128](https://i.imgur.com/MZO4tTE.png)
