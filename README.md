@@ -1,5 +1,6 @@
 
 # cordova-support-gradlenstein
+![gradlenstein-128x128](https://i.imgur.com/MZO4tTE.png)
 
 This [Cordova plugin](https://www.npmjs.com/package/cordova-support-gradlenstein) help you modify your original android build.gradle file, which means that you can create your very peculiar Gradle Frankenstein build file.
 
@@ -73,4 +74,5 @@ buildscript {
 
 ## Acknowledgment
 
-This plugin was inspired by the cordova-support-kotlin (code) and by many suffering human beings that lurks stackoverflow searching for the light.  
+This plugin was inspired by the [cordova-support-kotlin](https://github.com/kainonly/cordova-support-kotlin) (code) and by many suffering human beings that lurks stackoverflow searching for the light.  
+Frankenstein elephant by [Brent Brown](http://blog.brentbrown.com/tag/elephant/)
