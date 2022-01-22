@@ -54,7 +54,7 @@ BUILDSCRIPT_DEPENDENCIES.forEach(entry => {
   if (!buildContent.match(/entry['id']/g)) {
     let dependency = `\nclasspath "${entry['id']}:${entry['version']}"\n`;
     console.log("Adding BUILDSCRIPT dependency... " + dependency)
-    appendContent(/classpath\s+(['"])[\w.:]+(['"])/g, dependency);
+    appendContent(/classpath\s+(['"]).+(['"])/g, dependency);
   }
 });
 
